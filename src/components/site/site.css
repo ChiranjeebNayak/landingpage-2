@@ -1,0 +1,68 @@
+.design{
+    width: 50%;
+    margin:auto;
+    margin-top: 20vh;
+    text-align: center;
+    font-family: "Playfair Display", serif;
+}
+.design .heading .title{
+    display: block;
+    font-size: 32px;
+}
+.design .subtitle{
+    font-size: 15px;
+}
+.design .image{
+    margin-top: 5vh;
+    margin-bottom: 3vh;
+}
+@media(max-width: 960px){
+    .design{
+        width: 100%;
+    }
+    .design .image img{
+        width: 90%;
+    }
+    .design .heading .title{
+        font-size: 35px;
+    }
+}
+
+
+
+.watch{
+    margin-top: 10vh;
+    text-align: left;
+    font-family: "Playfair Display", serif;
+    
+}
+.watch .title{
+    display: block;
+    font-size: 32px;
+}
+.watch .heading .ul{
+    border-top: 1px solid;
+    width: 10%;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+.watch .heading .subtitle {
+    font-size: 15px;
+    width: 63%;
+}
+.watch  .image{
+    margin: 4vh 0vh;
+
+}
+@media(max-width: 960px){
+    .watch{
+        width: 100%;
+    }
+    .watch .image img{
+        width: 90%;
+    }
+    .watch .heading .title{
+        font-size: 35px;
+    }
+
+}

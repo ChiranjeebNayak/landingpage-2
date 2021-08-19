@@ -1,0 +1,14 @@
+.product .row{
+    margin: auto;
+    margin-top: 15vh;
+    font-family: "Playfair Display", serif;
+    padding: 20px;
+}
+.product .row .title h4{
+    margin-top: 2vh;
+    font-size: 30px;
+    font-weight: bold;
+}
+.product .row .subtitle{
+    margin-top: 2vh;
+} 

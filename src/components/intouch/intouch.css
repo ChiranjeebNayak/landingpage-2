@@ -1,0 +1,22 @@
+.touch{
+    text-align: center;
+    color: black;
+    margin-top: 15vh;
+    font-family: "Playfair Display", serif;
+}
+.touch h1{
+    margin: 0px 0px 8px;
+    font-size: 40px;
+}
+.touch p{
+    font-family: "Crimson Text", serif;
+}
+.touch button{
+    min-width: 12vw;
+    background-color: black;
+}
+@media(max-width: 960px) {
+    .touch h1{
+        font-size: 30px;
+    } 
+}

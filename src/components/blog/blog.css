@@ -1,0 +1,49 @@
+.blogheading{
+    margin: 0px 20px;
+    margin-top: 5vh;
+}
+.blogheading .ul{
+    border-bottom: 1px solid black;
+    margin-top: 3vh;
+    width: 05%;
+}
+.blog{
+    margin-top: 5vh;
+}
+
+.blog .card{
+    width: 25vw;
+    margin: 0px 20px;
+}
+
+.blog .card-body,.blog .card-body p,.blog .card-body a{
+    background: white;
+    margin-bottom: 2vh;
+}
+.blog .card-body p{
+    font-family: "Crimson Text", serif;
+    background-color: white;
+}
+.blog .card-body .card-title{
+    font-size: 18px;
+    font-family: "Playfair Display", serif;
+    font-weight: bold;
+}
+.blog .card .card-date{
+    color: grey;
+}
+.blog .card-body a{
+    color: black;
+    text-transform: uppercase;
+    text-decoration:  none;
+    font-weight:600;
+    letter-spacing: 2px;
+}
+
+@media(max-width:960px){
+    .blog .card{
+        width: 100%;
+        margin: 0%;
+        margin-top: 2vh;
+    } 
+}

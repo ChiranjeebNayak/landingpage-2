@@ -1,0 +1,37 @@
+
+.season{
+    margin-top: 25vh;
+    font-family: "Playfair Display", serif;
+}
+.season .heading .ul{
+    margin-top: 2vh;
+    border-bottom: 1px solid black;
+    width: 10%;
+}
+.season .row{
+    padding:0px  200px;
+}
+.season .heading h2{ 
+    margin-top: 5vh;
+    
+    font-size: 32px;
+    font-weight: bold;
+    padding:0px  200px;
+    line-height: 50px;
+}
+.season .row span{
+    margin: 2vh;
+    font-family: "Crimson Text", serif;
+}
+.season .row span h5{
+    font-size: 15px;
+}
+@media (max-width: 960px) {
+    .season .row{
+        padding:0px  20px;
+    }
+    .season .heading h2{
+        
+    padding:0px  20px;
+    }
+}

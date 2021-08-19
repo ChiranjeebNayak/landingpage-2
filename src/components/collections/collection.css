@@ -1,0 +1,16 @@
+.collection{
+    padding-top: 15vh;
+    border: 1px solid red;
+}
+.collection .heading h2{
+    font-size:32px;
+    font-weight: 400;
+    font-family: "Playfair Display", serif;
+}
+.App {
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }

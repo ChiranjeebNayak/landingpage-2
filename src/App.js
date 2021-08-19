@@ -1,24 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
-
+import React from "react"
+import 'bootstrap/dist/css/bootstrap.min.css'
+import Navbar from './components/navbar/Navbar'
+import Hero from "./components/hero/Hero";
+import Site from "./components/site/Site";
+import Products from './components/products/Products'
+import Season from "./components/season/Season";
+import Read from "./components/read/Read";
+import Blog from "./components/blog/Blog";
+import Intouch from "./components/intouch/Intouch";
+import Footer from "./components/footer/Footer";
+import Season1 from "./components/season1/Season1";
+import Season2 from "./components/season2/Season2";
+import Collection from "./components/collections/Collection";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <Navbar/>
+    <Hero/>
+    <Site/>
+    <Products/>
+    <Collection/>
+    <Season/>
+    <Read/>
+    <Season2/>
+    <Season1/>
+    <Blog/>
+    <Intouch/>
+    <Footer/>
+    </>
   );
 }
 

@@ -1,0 +1,48 @@
+.footer h1 ,.footer h2, .footer h3 ,.footer h4,.footer h5{
+    font-family: "Playfair Display", serif;
+}
+
+
+.footer .social {
+    display: flex;
+    justify-content: start;
+}
+.footer .social li{
+    padding-right: 20px;
+    font-size: 40px;
+}
+.footer .social .icon-facebook:hover{
+    color: blue;
+}
+.footer .social .icon-twitter:hover{
+    color: rgb(89, 89, 209);
+}
+.footer .social .icon-instagram:hover{
+    color: rgb(197, 40, 87);
+}
+.footer .social .icon-dribble:hover{
+    color: rgb(214, 34, 160);
+}
+.footer .social .icon-linkedin:hover{
+    color: blue;
+}
+.footer a{
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    font-family: "Crimson Text", serif;
+}
+.footer .menu li{
+    margin-top: 1vh;
+}
+.footer .ul{
+    margin-top: 5vh;
+    border-bottom: 1px solid black;
+}
+.footer .copyright{
+    font-family: "Crimson Text", serif;
+    margin-top: 5vh;
+    text-align: center;
+    margin-bottom: -8vh;
+}
+
