@@ -1,16 +1,17 @@
 import React from 'react'
 import './season2.css'
+import img6 from '../asset/img/img6.jpg'
 import img7 from '../asset/img/img7.jpg'
 function Season2() {
     return (
         <>
-            <div className="container mt-5 season1">
+            <div className="container mt-5 season2">
 
                 <div className="row">
-
                     <div className="col-lg-6 col-md-6 col-sm-12 box2">
+                            <img src={img6} alt="img6" className="img-fluid smallimg" />
                         <div className="image">
-                            <img src={img7} alt="img7" className="img-fluid" />
+                            <img src={img7} alt="img7" className="img-fluid bigimg" />
                         </div>
                     </div>
                     <div className="col-lg-6 col-md-6 col-sm-12 box1">

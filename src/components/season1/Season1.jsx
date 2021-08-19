@@ -1,6 +1,7 @@
 import React from 'react'
 import './season1.css'
 import img4 from '../asset/img/img4.jpg'
+import img8 from '../asset/img/img8.jpg'
 function Season1() {
     return (
         <>
@@ -17,6 +18,7 @@ function Season1() {
                     </div>
                     <div className="col-lg-6 col-md-6 col-sm-12 box2">
                         <div className="image">
+                        <img src={img8} alt="img6" className="img-fluid smallimg" />
                             <img src={img4} alt="img7" className="img-fluid" />
                         </div>
                     </div>

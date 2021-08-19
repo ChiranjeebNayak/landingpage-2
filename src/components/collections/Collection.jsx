@@ -10,7 +10,7 @@ import Item from "./item";
 function Collection() {
     const breakPoints = [
         { width: 1, itemsToShow: 1 },
-        { width: 550, itemsToShow: 2 },
+        { width: 550, itemsToShow: 1 },
         { width: 768, itemsToShow: 3 },
         { width: 1200, itemsToShow: 4 },
     ];
@@ -40,7 +40,7 @@ function Collection() {
                             </div>
                         </Item><Item>
                         <div class="card">
-                                <img class="card-img-top" src={img9} alt="Card image cap" style={ {height: "43vh"}}/>
+                                <img class="card-img-top" src={img9} alt="Card image cap" />
                                 <div class="card-body">
                                     <p class="card-head">Woman Floral Dress</p>
                                     <p class="card-text">Far far away, behind the word mountains, far from the countries.</p>
@@ -48,7 +48,7 @@ function Collection() {
                             </div>
                         </Item><Item>
                         <div class="card">
-                                <img class="card-img-top" src={img10} alt="Card image cap" style={ {height: "43vh"}}/>
+                                <img class="card-img-top" src={img10} alt="Card image cap" />
                                 <div class="card-body">
                                     <p class="card-head">Woman Floral Dress</p>
                                     <p class="card-text">Far far away, behind the word mountains, far from the countries.</p>
@@ -56,7 +56,7 @@ function Collection() {
                             </div>
                         </Item><Item>
                         <div class="card">
-                                <img class="card-img-top" src={img11} alt="Card image cap" style={ {height: "43vh"}}/>
+                                <img class="card-img-top" src={img11} alt="Card image cap" />
                                 <div class="card-body">
                                     <p class="card-head">Woman Floral Dress</p>
                                     <p class="card-text">Far far away, behind the word mountains, far from the countries.</p>

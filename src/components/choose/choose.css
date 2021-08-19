@@ -1,0 +1,30 @@
+.choose .row{
+    padding-top: 15vh;
+    font-family: "Crimson Text", serif;
+    padding: 0px 100px;
+}
+.choose .row  h2{
+    font-family: "Playfair Display", serif;
+    font-size: 40px;
+    padding-top: 5vh;
+}
+.choose .row .ul{
+    border-bottom:  1px solid black;
+    width: 10%;
+    margin: 3vh  0vh;
+}
+.choose .btn {
+    background-color: black;
+    min-width: 12vw;
+    margin-top: 5vh;
+    min-height: 7vh;
+}
+.accordion button{
+    background: transparent;
+}
+
+@media(max-width:960px){
+    .choose .row{
+        padding: 0px 10px;
+    }
+}

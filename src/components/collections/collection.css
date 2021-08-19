@@ -27,3 +27,8 @@
   background-color: white;
   color: grey;
 }
+.collection .card img{
+  height: 40vh;
+  width: 100%;
+  margin: 0px;
+}

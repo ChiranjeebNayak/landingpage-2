@@ -32,6 +32,19 @@
     font-size: 15px;
 }
 
+
+.season1 .smallimg{
+    width: 200px;
+    position: absolute;
+    padding-top: 150px;
+    margin-left: -70px;
+    background: transparent;
+}
+.season1 .box2 .bigimg{
+    padding-left: 20px;
+}
+
+
 @media (max-width: 960px) {
     .season1 .row{
         padding:0px  20px;
@@ -48,5 +61,14 @@
     .season1 .row .box2{
         padding: 0px;
         order: 2;
+    }
+    .season1 .smallimg{
+        width: 150px;
+        padding-top: 100px;
+        padding-left: 20px;
+        background: transparent;
+    }
+    .season1 .box2 .bigimg{
+        padding-left: 20px;
     }
 }

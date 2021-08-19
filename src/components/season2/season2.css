@@ -1,52 +1,70 @@
 
-.season1{
+.season2{
     padding-top: 15vh;
     font-family: "Playfair Display", serif;
 }
 
-.season1 .heading .ul{
+.season2 .heading .ul{
     margin-top: 2vh;
     border-bottom: 1px solid black;
     width: 10%;
 }
-.season1 .box1{
+.season2 .box1{
     width: 50%; 
     padding-left:  50px; 
 }
-.season1 .row .box2{
+.season2 .row .box2{
     padding: 0px 100px;
 }
-.season1 .row .box1{
+.season2 .row .box1{
     padding-right:200px;
 }
-.season1 .heading h2{ 
+.season2 .heading h2{ 
     padding-top: 5vh;
     font-size: 32px;
     font-weight: 500;
 }
-.season1 .row span{
+.season2 .row span{
     margin: 2vh;
     font-family: "Crimson Text", serif;
 }
-.season1 .row span h5{
+.season2 .row span h5{
     font-size: 15px;
 }
-
+.season2 .smallimg{
+    width: 200px;
+    position: absolute;
+    padding-top: 150px;
+    margin-left: -70px;
+    background: transparent;
+}
+.season2 .box2 .bigimg{
+    padding-left: 20px;
+}
 @media (max-width: 960px) {
-    .season1 .row{
+    .season2 .row{
         padding:0px  20px;
     }
-    .season1 .heading h2{  
+    .season2 .heading h2{  
         padding:0px  20px;
     }
-    .season1 .row .box1{
+    .season2 .row .box1{
         padding:0px;
         width: 100%;
         order: 10;
         margin-top: 2vh;
     }
-    .season1 .row .box2{
+    .season2 .row .box2{
         padding: 0px;
         order: 2;
+    }
+    .season2 .smallimg{
+        width: 150px;
+        padding-top: 100px;
+        padding-left: 20px;
+        background: transparent;
+    }
+    .season2 .box2 .bigimg{
+        padding-left: 20px;
     }
 }

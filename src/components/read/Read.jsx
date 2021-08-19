@@ -1,7 +1,8 @@
 import React from 'react'
 import './read.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCalendar } from '@fortawesome/free-solid-svg-icons'
+import { faCalendar, faCalendarAlt, faCopy , faCommentDots} from '@fortawesome/free-solid-svg-icons'
+
 function Read() {
     return (
         <>
@@ -9,7 +10,7 @@ function Read() {
                 <div className="row read">
                     <div className="col-lg-4 col-md-6 col-sm-12">
                         <div className="icons">
-                            <FontAwesomeIcon className="icon" icon={faCalendar}></FontAwesomeIcon>
+                            <FontAwesomeIcon className="icon" icon={faCommentDots}></FontAwesomeIcon>
                         </div>
                         <div className="title"><h2>Minimal Design</h2></div>
                         <div className="subtitle">
@@ -19,7 +20,7 @@ function Read() {
                     </div>
                     <div className="col-lg-4 col-md-6 col-sm-12">
                     <div className="icons">
-                            <FontAwesomeIcon className="icon" icon={faCalendar}></FontAwesomeIcon>
+                            <FontAwesomeIcon className="icon" icon={faCalendarAlt}></FontAwesomeIcon>
                         </div>
                         <div className="title"><h2>Minimal Design</h2></div>
                         <div className="subtitle">
@@ -29,7 +30,7 @@ function Read() {
                     </div>
                     <div className="col-lg-4 col-md-6 col-sm-12">
                     <div className="icons">
-                            <FontAwesomeIcon className="icon" icon={faCalendar}></FontAwesomeIcon>
+                            <FontAwesomeIcon className="icon" icon={faCopy}></FontAwesomeIcon>
                         </div>
                         <div className="title"><h2>Minimal Design</h2></div>
                         <div className="subtitle">

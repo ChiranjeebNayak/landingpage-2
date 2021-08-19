@@ -12,6 +12,7 @@ import Footer from "./components/footer/Footer";
 import Season1 from "./components/season1/Season1";
 import Season2 from "./components/season2/Season2";
 import Collection from "./components/collections/Collection";
+import Choose from "./components/choose/Choose";
 function App() {
   return (
     <>
@@ -23,6 +24,7 @@ function App() {
     <Season/>
     <Read/>
     <Season2/>
+    <Choose/>
     <Season1/>
     <Blog/>
     <Intouch/>
